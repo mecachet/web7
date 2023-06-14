@@ -20,7 +20,44 @@
     max-width: 400px;
     float: right;
     animation-name: truck;
+    animation-duration: 4s;
 }
 .dumpy img {
     max-width: 400px;
+    animation-name: dumpy;
+    animation-duration: 4s;
+}
+@keyframes truck {
+   from {
+    transform: translateX(0%);
+   }
+   to {
+    transform: translateX(-100%);
+   }
+}
+@keyframes dumpy {
+    from {
+     transform: translateX(0%);
+    }
+    to {
+     transform: translateX(100%);
+    }
+ }
+ .bang img {
+    max-width: 400px;
+    animation-name: bangy;
+    animation-delay: 3s;
+    animation-duration: 1s;
+    position: absolute;
+    position: center;
+    right: 580px;
+    opacity: 0
+}
+@keyframes bangy {
+    from {
+        opacity: 0;
+        } 
+        to {
+        opacity: 1;
+        }
 }
