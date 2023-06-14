@@ -1,63 +1,63 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-} 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .background img {
-    background-image: url('background.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    max-width: 100%;
-    height: auto;
-    position: absolute;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  max-width: 100%;
+  height: auto;
+  position: absolute;
 }
 .bothcars img {
-      position: relative;
-      top: 500px;
+  position: relative;
+  top: 500px;
 }
 .truck img {
-    max-width: 400px;
-    float: right;
-    animation-name: truck;
-    animation-duration: 4s;
+  max-width: 400px;
+  float: right;
+  animation-name: truck;
+  animation-duration: 4s;
 }
 .dumpy img {
-    max-width: 400px;
-    animation-name: dumpy;
-    animation-duration: 4s;
+  max-width: 400px;
+  animation-name: dumpy;
+  animation-duration: 4s;
 }
 @keyframes truck {
-   from {
+  from {
     transform: translateX(0%);
-   }
-   to {
+  }
+  to {
     transform: translateX(-100%);
-   }
+  }
 }
 @keyframes dumpy {
-    from {
-     transform: translateX(0%);
-    }
-    to {
-     transform: translateX(100%);
-    }
- }
- .bang img {
-    max-width: 400px;
-    animation-name: bangy;
-    animation-delay: 3s;
-    animation-duration: 1s;
-    position: absolute;
-    position: center;
-    right: 580px;
-    opacity: 0
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+.bang img {
+  max-width: 400px;
+  animation-name: bangy;
+  animation-delay: 3s;
+  animation-duration: 1s;
+  position: absolute;
+  position: center;
+  right: 580px;
+  opacity: 0;
 }
 @keyframes bangy {
-    from {
-        opacity: 0;
-        } 
-        to {
-        opacity: 1;
-        }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
