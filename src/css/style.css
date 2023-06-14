@@ -5,9 +5,22 @@
 } 
 .background img {
     background-image: url('background.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  max-width: 100%;
-  height: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+}
+.bothcars img {
+      position: relative;
+      top: 500px;
+}
+.truck img {
+    max-width: 400px;
+    float: right;
+    animation-name: truck;
+}
+.dumpy img {
+    max-width: 400px;
 }
